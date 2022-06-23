@@ -1,0 +1,16 @@
+.container-main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.title-elements {
+    font-size: 100px;
+}
+
+.title-elements::after {
+    content: '>';
+}
+
+.title-elements::before {
+    content: '<';
+}

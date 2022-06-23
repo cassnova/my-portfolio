@@ -16,7 +16,7 @@ function About() {
 
     return (
         <section className="sec-container">
-            <h2 style={{ transform: `translateY(${offsetY * 0.5}px)` }}>About Me</h2>
+            <h2 style={{ transform: `translateY(${offsetY * 0.3}px)` }}>About Me</h2>
             <div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat labore veritatis totam temporibus iure? Dignissimos.</p>
             </div>
