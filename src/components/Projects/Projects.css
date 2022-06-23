@@ -4,13 +4,15 @@
 }
 
 .title-elements {
-    font-size: 100px;
+    font-size: 45px;
 }
 
 .title-elements::after {
-    content: '>';
+    content: ' />';
+    color: #0084E3;
 }
 
 .title-elements::before {
     content: '<';
+    color: #0084E3;
 }
