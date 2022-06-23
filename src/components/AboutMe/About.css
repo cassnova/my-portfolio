@@ -9,10 +9,13 @@
 }
 
 .sec-container h2 {
-    font-size: 180px;
-    margin-top: 0;
+    font-size: 150px;
+    margin-bottom: 800px;
+    filter: drop-shadow(-40px 0px 30px rgba(0, 0, 0, 0.5));
 }
 
 .sec-container div {
-    width: 200px;
+    width: 500px;
+    height: 400px;
+    border: 1px solid black;
 }
