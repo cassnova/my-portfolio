@@ -1,17 +1,22 @@
 import React from "react";
+import Data from "../../bd";
 import './Card.css'
 
-function Card() {
+function Card(props) {
     return (
+
         <div className="card-container">
+
             <div className="img-container">
-                <img src="" alt="" />
+                <img src={props.photo} alt={props.title} />
             </div>
+
             <div
                 className="description-container">
-                <p></p>
-                <a href=""></a>
+                <p>{props.description}</p>
+                <a href={props.link}>Visit Website</a>
             </div>
+
         </div>
     )
 }

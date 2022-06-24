@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import About from './components/AboutMe/About';
 import Projects from './components/Projects/Projects';
+import Data from './bd';
 
 function App() {
   return (
