@@ -6,12 +6,17 @@ import './Header.css'
 function Header() {
     return (
         <header className="container-header">
+
             <div>
-                <h1>
-                    <span>Daniel</span>
-                    <span>Rojas</span>
-                    <span>Casanova</span>
+
+                <h1 className="my-name">
+                    DANIEL
                 </h1>
+
+                <h2 className="last-names">
+                    ROJAS CASANOVA
+                </h2>
+
             </div>
 
             <h2 className="fx">Front-End Developer</h2>

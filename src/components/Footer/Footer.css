@@ -1,18 +1,22 @@
 .footer-container {
-    height: 150px;
+    height: 100vh;
     width: 100vw;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center
+}
+
+.footer-title {
+    font-size: 23px;
 }
 
 .icons-container {
     height: 70px;
     width: 100vw;
-    margin-top: 100px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;

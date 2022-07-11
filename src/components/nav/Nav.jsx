@@ -13,9 +13,9 @@ function NavBarMenu() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link className="nav-item fs-6" href="#aboutMe">Sobre mi</Nav.Link>
-                        <Nav.Link className="nav-item fs-6" href="#projects">Proyectos</Nav.Link>
-                        <Nav.Link className="nav-item fs-6" href="#footer">Contacto</Nav.Link>
+                        <Nav.Link className="nav-item fs-6" href="#aboutMe">SOBRE MÍ</Nav.Link>
+                        <Nav.Link className="nav-item fs-6" href="#projects">PROYECTOS</Nav.Link>
+                        <Nav.Link className="nav-item fs-6" href="#footer">CONTACTO</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

@@ -18,16 +18,24 @@
 }
 
 .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 150px;
     /* border: 1px solid blue; */
 }
 
 .img-container img {
-    height: 170px;
+    height: 150px;
 }
 
 .description-container {
     width: 200px;
     padding: 9px;
     /* border: 1px solid blueviolet; */
+}
+
+.description-container p {
+    font-size: 15px;
+    text-align: left;
 }
