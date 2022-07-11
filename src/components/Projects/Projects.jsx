@@ -6,7 +6,7 @@ import Data from "../../bd";
 function Projects() {
 
     return (
-        <main className="container-main">
+        <main className="container-main" id="projects">
             <h2 className="title-elements">Projects</h2>
 
             <Card photo={Data[0].photo} description={Data[0].description} title={Data[0].title} link={Data[0].link} />

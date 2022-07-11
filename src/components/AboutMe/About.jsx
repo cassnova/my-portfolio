@@ -15,7 +15,7 @@ function About() {
     }, [])
 
     return (
-        <section className="sec-container">
+        <section className="sec-container" id="aboutMe">
             <h2 style={{ transform: `translateY(${offsetY * 0.4}px)` }}>About Me</h2>
             <div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat labore veritatis totam temporibus iure? Dignissimos.

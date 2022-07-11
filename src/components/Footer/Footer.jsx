@@ -4,7 +4,7 @@ import { AiFillInstagram, AiFillLinkedin, AiFillFacebook, AiFillGithub } from 'r
 
 function Footer() {
     return (
-        <footer className="footer-container">
+        <footer className="footer-container" id="footer">
             <h1>Hola!</h1>
             <div className="icons-container">
 
