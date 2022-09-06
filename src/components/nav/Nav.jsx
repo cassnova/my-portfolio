@@ -4,12 +4,15 @@ import 'bootstrap/dist/css/bootstrap.css'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import LogoDRCBLANCO from './LogoDRCBLANCO.png';
 
 function NavBarMenu() {
     return (
         <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
             <Container>
-                <Navbar.Brand href="#home">DRC</Navbar.Brand>
+                <Navbar.Brand href="#home">
+                    <img className="logoDRC" src={LogoDRCBLANCO} alt='Logo DRC' />
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
