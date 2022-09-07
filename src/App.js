@@ -4,7 +4,7 @@ import About from './components/AboutMe/About';
 import Projects from './components/Projects/Projects';
 import Footer from './components/Footer/Footer';
 import NavBarMenu from './components/nav/Nav';
-
+import Data from './bd';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <NavBarMenu />
       <Header />
       <About />
-      <Projects />
+      <Projects data={Data} />
       <Footer />
     </div>
   );

@@ -6,7 +6,6 @@ function Card(props) {
     return (
 
         <div className="card-container">
-
             <div className="img-container">
                 <img src={props.photo} alt={props.title} />
             </div>
@@ -16,7 +15,6 @@ function Card(props) {
                 <p>{props.description}</p>
                 <a href={props.link}>Visit Website</a>
             </div>
-
         </div>
     )
 }
