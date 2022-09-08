@@ -20,7 +20,7 @@ function Projects(props) {
                     )
                 })
             }
-            
+
             {/* <Card photo={Data[0].photo} description={Data[0].description} title={Data[0].title} link={Data[0].link} />
             <Card photo={Data[1].photo} description={Data[1].description} title={Data[1].title} link={Data[1].link} />
             <Card photo={Data[2].photo} description={Data[2].description} title={Data[2].title} link={Data[2].link} />
