@@ -1,7 +1,7 @@
 .sec-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     /* justify-content: space-between; */
     /* border: 1px black solid; */
     height: 100vh;
@@ -10,7 +10,7 @@
 }
 
 .sec-container h2 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 900px;
     padding: 10px;
     text-align: left;
@@ -22,4 +22,11 @@
     height: 300px;
     padding: 10px;
     /* border: 1px solid black; */
+}
+
+.sec-container p {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    text-align: justify;
 }
