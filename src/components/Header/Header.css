@@ -59,3 +59,9 @@
         border-color: transparent
     }
 }
+
+@media (min-width: 1280px) {
+    .fx {
+        height: 33px;
+    }
+}

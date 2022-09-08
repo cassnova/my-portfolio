@@ -13,7 +13,11 @@ function Card(props) {
             <div
                 className="description-container">
                 <p>{props.description}</p>
-                <a href={props.link}>Visit Website</a>
+                <div className="btn-container">
+                    <a className="btn-webs" target="__blank" href={props.link}>
+                        VISITAR
+                    </a>
+                </div>
             </div>
         </div>
 

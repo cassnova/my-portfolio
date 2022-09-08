@@ -37,6 +37,8 @@
     transform: scale(1.5, 1.5)
 }
 
+/** MEDIA QUERIES TO DESKTOP **/
+
 @media (min-width: 1280px) {
     .footer-container {
         width: 50%;
@@ -48,6 +50,6 @@
     }
 
     .icons-container {
-        width: 70vw;
+        width: 50vw;
     }
 }

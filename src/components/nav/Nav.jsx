@@ -8,7 +8,7 @@ import LogoDRCBLANCO from './LogoDRCBLANCO.png';
 
 function NavBarMenu() {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
+        <Navbar bg="dark" variant="dark" expand="lg" fixed="top" collapseOnSelect>
             <Container>
                 <Navbar.Brand href="#home">
                     <img className="logoDRC" src={LogoDRCBLANCO} alt='Logo DRC' />
