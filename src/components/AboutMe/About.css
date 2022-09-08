@@ -31,10 +31,27 @@
     text-align: justify;
 }
 
+/** MEDIA QUERIES TO TABLET**/
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .sec-container {
+        width: 85%;
+        margin: auto;
+    }
+
+    .sec-container h2 {
+        font-size: 50px;
+    }
+
+    .sec-container p {
+        font-size: 19px;
+    }
+}
+
 
 /** MEDIA QUARIES FOR TABLETS AND DESKTOP **/
 
-@media (min-width: 768px) {
+@media (min-width: 1279px) {
     .sec-container {
         display: flex;
         justify-content: center;

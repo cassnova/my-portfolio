@@ -36,3 +36,18 @@
     color: #0084E3;
     transform: scale(1.5, 1.5)
 }
+
+@media (min-width: 1280px) {
+    .footer-container {
+        width: 50%;
+        margin: auto;
+    }
+
+    .footer-title {
+        font-size: 50px;
+    }
+
+    .icons-container {
+        width: 70vw;
+    }
+}

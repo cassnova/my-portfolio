@@ -6,20 +6,22 @@ import Data from "../../bd";
 function Projects(props) {
 
     return (
-        <main className="container-main" id="projects">
+        <main id="projects">
             <h2 className="title-elements">PROYECTOS</h2>
-            {
-                props.data.map((value) => {
-                    return (
-                        <Card
-                            photo={value.photo}
-                            description={value.description}
-                            title={value.title}
-                            link={value.link}
-                        />
-                    )
-                })
-            }
+            <div className="container-main">
+                {
+                    props.data.map((value) => {
+                        return (
+                            <Card
+                                photo={value.photo}
+                                description={value.description}
+                                title={value.title}
+                                link={value.link}
+                            />
+                        )
+                    })
+                }
+            </div>
 
             {/* <Card photo={Data[0].photo} description={Data[0].description} title={Data[0].title} link={Data[0].link} />
             <Card photo={Data[1].photo} description={Data[1].description} title={Data[1].title} link={Data[1].link} />

@@ -16,7 +16,7 @@ function About() {
 
     return (
         <section className="sec-container" id="aboutMe">
-            <h2 style={{ transform: `translateY(${offsetY * 0.2}px)` }}>SOBRE MÍ</h2>
+            <h2 style={{ transform: `translateY(${offsetY * 0.3}px)` }}>SOBRE MÍ</h2>
             <div>
                 <p>
                     ¡Hola! Mi nombre es Daniel Rojas Casanova, actualmente vivo en la ciudad de Viña del Mar, Quinta Región de Chile y soy Desarrollador web front-end.

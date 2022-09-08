@@ -16,6 +16,7 @@ function Card(props) {
                 <a href={props.link}>Visit Website</a>
             </div>
         </div>
+
     )
 }
 
