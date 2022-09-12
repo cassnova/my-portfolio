@@ -12,6 +12,15 @@
     justify-content: space-between;
 }
 
+.Dark .card-container {
+    border: 1px solid white;
+    transition: 2s;
+}
+
+.Light .card-container {
+    transition: 2s;
+}
+
 .card-container:hover {
     -webkit-box-shadow: 0px 0px 20px -5px rgba(#0084E3);
     box-shadow: 0px 0px 20px -5px rgba(#0084E3);
@@ -26,8 +35,9 @@
 }
 
 .img-container img {
-    height: 150px;
+    width: 130px;
     transition: 1s;
+    object-fit: cover;
 }
 
 .img-container img:hover {
@@ -52,7 +62,7 @@
 .btn-webs {
     border: 1px solid #0084E3;
     background-color: white;
-    width: 150px;
+    width: 100px;
     height: 28px;
     font-size: 13px;
     color: black;
@@ -64,6 +74,16 @@
     letter-spacing: 3px;
     border-radius: 20px;
     transition: 0.5s;
+}
+
+.Dark .btn-webs {
+    background-color: rgb(44, 42, 42);
+    color: #0084E3;
+    transition: 2s;
+}
+
+.Light .btn-webs {
+    transition: 2s;
 }
 
 .btn-webs:hover {

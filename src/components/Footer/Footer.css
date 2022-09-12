@@ -32,9 +32,17 @@
 
 }
 
+.Dark .icon-container {
+    color: #0084E3;
+}
+
 .icon-container:hover {
     color: #0084E3;
     transform: scale(1.5, 1.5)
+}
+
+.Dark .icon-container:hover {
+    color: white;
 }
 
 /** MEDIA QUERIES TO DESKTOP **/
