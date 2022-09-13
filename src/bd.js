@@ -3,7 +3,7 @@ const Data = [
         title: 'LIV STUDIO',
         photo: './photolivstudio.jpg',
         link: 'https://livstudio.cl',
-        description: 'Propuesta de diseño y desarrollo web ecommerce. En la tienda se implementa la API de Transbank Webpay Plus para transacciones en Chile con tarjetas de débito o crédito y prepago. '
+        description: 'Propuesta de diseño y desarrollo web ecommerce. En la tienda se implementa la API de Transbank Webpay para transacciones en Chile con tarjetas de débito, crédito y prepago. '
     },
     {
         title: 'Podcasts',
@@ -21,13 +21,13 @@ const Data = [
         title: 'Gifos',
         photo: './photogifos.jpg',
         link: 'https://gifos-drc.netlify.app/',
-        description: 'En esta aplicación web el usuario puede buscar cualquier GIF con solo escribir la palabra clave en el buscador, entregando distintas sugerencias. Para esta App se consume la API Giphy.'
+        description: 'En esta aplicación web el usuario puede buscar cualquier GIF con solo escribir la palabra clave en el buscador, entregando distintas sugerencias.'
     },
     {
         title: 'Twitter',
         photo: './photodevunited.jpg',
         link: 'https://proyecto-prueba-5c922.web.app/',
-        description: 'Aplicación similar a Twitter. A través del ingreso por la cuenta personal de Google, el usuario puede comunicarse con personas de todas partes del mundo e interactuar en sus post.'
+        description: 'App similar a Twitter. A través del ingreso por la cuenta personal de Google, el usuario puede comunicarse con personas de todas partes del mundo e interactuar en sus post.'
     },
     {
         title: 'Blog Cafe',
