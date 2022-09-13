@@ -15,7 +15,7 @@ const Data = [
         title: 'Hotels',
         photo: './photohotels.jpg',
         link: 'https://reactivehotels.netlify.app/',
-        description: 'Aplicación web que facilita la búsqueda de alojamiento en hoteles, filtrando de acuerdo a las preferencias solicitadas en el buscador. Los resultados se actualizan automáticamente, entregando distintas recomendaciones al usuario, para que elija la que estime conveniente.'
+        description: 'App web que facilita la búsqueda de hoteles, filtrando de acuerdo a las preferencias solicitadas en el buscador y los resultados se actualizan automáticamente.'
     },
     {
         title: 'Gifos',
@@ -33,7 +33,7 @@ const Data = [
         title: 'Blog Cafe',
         photo: './photoblogcafe.jpg',
         link: 'https://danielrojas-blogcafeproject.netlify.app/',
-        description: 'Diseño y desarrollo de blog del rubro cafetero, en donde se entregan distintos tipos de consejos y cursos. Además el usuario puede ingresar el contenido de su negocio, permitiéndole obtener mayor visibilidad en la web. '
+        description: 'Diseño y desarrollo de blog del rubro cafetero, donde se entregan distintos tipos de consejos y cursos, permitiéndole obtener mayor visibilidad en la web. '
     },
     {
         title: 'Calculator App',
