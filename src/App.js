@@ -5,8 +5,8 @@ import Projects from './components/Projects/Projects';
 import Footer from './components/Footer/Footer';
 import NavBarMenu from './components/nav/Nav';
 import Btn from './components/Btn/Btn';
+import SkillsSection from './components/SkillsSection/SkillsSection';
 import Data from './bd';
-import { FiSun, BsMoon } from 'react-icons/ai';
 import { useState } from "react";
 
 
@@ -20,6 +20,7 @@ function App() {
       <Header />
       <About />
       <Projects data={Data} />
+      <SkillsSection />
       <Footer />
       <Btn
         onClick={() => {
