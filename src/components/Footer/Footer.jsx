@@ -12,7 +12,7 @@ function Footer() {
 
       <div className="icons-container">
         <a
-          href="https://www.linkedin.com/in/daniel-rojas-casanova/"
+          href="https://www.linkedin.com/in/danielrojascasanova/"
           target="_blank"
           rel="noreferrer"
         >
