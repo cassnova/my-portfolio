@@ -1,7 +1,7 @@
 import React from "react";
 import './Projects.css'
 import Card from "../Cards/Card";
-import Data from "../../bd";
+
 
 function Projects(props) {
     return (

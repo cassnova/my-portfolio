@@ -1,61 +1,33 @@
 .btn {
-    position: fixed;
-    width: 45px;
-    height: 35px;
-    font-size: 13px;
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    border-radius: 100px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    right: 0;
-    bottom: 0;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    transition: 2s;
-    font-weight: bold;
+  position: fixed;
+  width: 45px;
+  height: 35px;
+  font-size: 13px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 100px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  bottom: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: 2s;
+  font-weight: bold;
 }
 
 .Dark .btn {
-    background-color: rgb(44, 42, 42);
-    color: white;
-    border: 1px solid white;
-    transition: 2s;
+  background-color: rgb(44, 42, 42);
+  color: white;
+  border: 1px solid white;
+  transition: 2s;
 }
 
 .Light .btn {
-    transition: 2s;
+  transition: 2s;
 }
-
-/* @media (min-width: 600px) {
-    .btn {
-        margin-right: 30px;
-    }
-}
-
-@media (min-width: 700px) {
-    .btn {
-        margin-right: 88px;
-    }
-}
-
-@media (min-width: 1500px) {
-    .btn {
-        margin-right: 100px;
-    }
-}
-
-@media (min-width: 1600px) {
-    .btn {
-        margin-right: 150px;
-    }
-}
-@media (min-width: 1700px) {
-    .btn {
-        margin-right: 250px;
-    }
-} */

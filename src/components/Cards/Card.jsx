@@ -1,5 +1,4 @@
 import React from "react";
-import Data from "../../bd";
 import './Card.css'
 
 function Card(props) {
