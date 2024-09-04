@@ -8,7 +8,10 @@ import Btn from './components/Btn/Btn';
 import SkillsSection from './components/SkillsSection/SkillsSection';
 import Data from './bd';
 import { useState } from "react";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
+// import Brightness5Icon from '@mui/icons-material/Brightness5';
+// import Brightness3Icon from '@mui/icons-material/Brightness3';
 
 function App() {
 
@@ -27,7 +30,7 @@ function App() {
           setIsDark(!isDark);
         }}
       >
-        {isDark ? "LIGHT" : "DARK"}
+        <FontAwesomeIcon icon={isDark ? faSun : faMoon} />
 
       </Btn>
     </div>

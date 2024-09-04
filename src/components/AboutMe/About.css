@@ -32,6 +32,14 @@
     text-align: justify;
 }
 
+li{
+    text-align: left;
+}
+
+h5{
+    text-align: left;
+}
+
 
 /** MEDIA QUERIES TO TABLET**/
 
@@ -86,5 +94,9 @@
         justify-content: flex-start;
         font-size: 17px;
         text-align: justify;
+    }
+
+    .sec-container h5 {
+        text-align: left;
     }
 }

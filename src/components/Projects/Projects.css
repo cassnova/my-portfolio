@@ -5,6 +5,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: auto;
+    gap: 15px;
 }
 
 .title-elements {
